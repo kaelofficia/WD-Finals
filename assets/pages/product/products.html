@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      author="Lawrence Abad"
+    />
+    <meta
+      description="This website is for educational purposes only. The website is the final project of Mastermind by TX02 from FEU Tech."
+    />
+    <link rel="stylesheet" href="../product/assets/css/product.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script src="./assets/js/main.js"></script>
+    <title>Datablitz</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .card {
+        width: 32%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #888888;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .card h3 {
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .card p {
+        text-align: center;
+      }
+
+      .card button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+    .card button:hover { 
+      background: #2066b1;
+    }
+
+     
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="/index.html" target="_blank" rel="noopener noreferrer"
+            ><img src="/assets/images/Brand Logo.avif" alt="Logo"
+          /></a>
+        </div>
+        <nav class="nav-container">
+          <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="/index.html" target="_blank" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/assets/pages/product/products.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="/assets/pages/about/about.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <button>Login</button>
+            </li>
+          </ul>
+          <div class="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="main-container">
+      <h1>Products</h1>
+      <div class="container">
+        <div class="card">
+          <img src="https://www.logitechg.com/en-us/products/gaming-mice.html" alt="Logitech G">
+          <h3>logitech G</h3>
+          <p>Shop Now!</p>
+          <button class="shop-now">Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.logitechg.com/en-us/products/gaming-headsets.html" alt="Logitech">
+          <h3>logitech</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.razer.com/gaming-mice" alt="Razer">
+          <h3>RAZER</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.e-yooso.com/products/keyboard" alt="E-YOOSO">
+          <h3>E-YOOSO</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://akkogear.com/products/akko-3098s-keyboard" alt="AKKO">
+          <h3>AKKO</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.redragon.com/products/gaming-keyboard" alt="REDRAGON">
+          <h3>REDRAGON</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.pulsar-gaming.com/products/mice" alt="pulsar">
+          <h3>pulsar</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://www.corsair.com/us/en/Categories/Gaming-Peripherals/Keyboards" alt="CORSAIR">
+          <h3>CORSAIR</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+        <div class="card">
+          <img src="https://steelseries.com/gaming-mice" alt="steelseries">
+          <h3>steelseries</h3>
+          <p>Shop Now!</p>
+          <button>Shop Now!</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="container-content">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li>
+                <a href="/assets/pages/about/about.html" target="_blank" rel="noopener noreferrer"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Our Services</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">FAQ</a>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">Career</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/DataBlitzPH/"
+                target="_blank"
+
